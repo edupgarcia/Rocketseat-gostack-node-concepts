@@ -63,7 +63,7 @@ app.put("/repositories/:id", (request, response) => {
     title,
     url,
     techs,
-    likes,
+    likes: repositories[repoIndex].likes,
   };
 
   // repositories[repositoryIndex] = repository;
